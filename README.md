@@ -1,4 +1,11 @@
-# ai4eo_project
+# Artificial Intelligence to save more lives! 
+This repository serves as a guide on how to reproduce the work done on my submission for the Artificial Intelligence for Earth Observation integrated course(VI).
+Report and other detailed info will be pushed once the course is finished.
+
+## Introduction
+As of the writing of this document, the current trends in Search and Rescue (SaR) scenarios is that a video is manually analyzed by video analysts.  
+As detailed by Yun et al. (2019), a human analyst successfully identified the victim within 25 seconds in a drone-captured video (4K resolution, with target sizes between 5 and 50 pixels), by focusing on specific regions of the image that, based on prior expertise, were most likely to contain the target. This task necessitates a high level of concentration, and the integration of an automated detection system could significantly enhance efficiency and accuracy.  
+This research project aims to enhance the efficiency and effectiveness of SaR missions, ultimately saving more lives. By evaluating and utilizing existing machine learning and deep learning models to accurately identify humans in challenging environments, such as remote mountainous regions and skiing areas.  
 
 ## Dataset download
 Roboflow Datasets can be either imported to a jupyter notebook or downloaded as a .zip file.
@@ -70,3 +77,6 @@ For RetinaNet, I liked the fastercnn-pytorch-training-pipeline and for that reas
 ## Extras
 I have all weights of all models on my PC, and they are avaiable anytime. 
 Also the inferences on all datasets.
+
+## References
+Kyongsik Yun et al. “Small Target Detection for Search and Rescue Operations Using Distributed Deep Learning and Synthetic Data Generation”. In: Pattern Recognition and Tracking XXX. Pattern Recognition and Tracking. May 13, 2019. (Visited on 06/01/2024).
